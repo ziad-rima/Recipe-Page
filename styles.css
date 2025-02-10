@@ -1,0 +1,174 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+    font-size: 10px;
+}
+
+.young-serif {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit {
+    font-family: "Outfit", serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 1.6rem 3rem;
+}
+
+.header .header-title {
+    font-size: 3.5rem;
+    align-self: center;
+    width: 100%;
+    margin: 1rem 0;
+    line-height: 1.1;
+}
+
+.header .header-paragraph,
+.nutrition-section .nutrition-paragraph {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: var(--Stone-600);
+    margin: 1rem 0;;
+}
+
+.preparation-time {
+    background-color: var(--Rose-50);
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.9rem;
+    border-radius: 5px;
+}
+
+.preparation-time .prep-title {
+    font-size: 1.8rem;
+    color: var(--Rose-800);
+}
+
+.bullet-point {
+    display: flex;
+    align-items: center;
+}
+
+.bullet-point .prep-text {
+    font-size: 1.6rem;
+    color: var(--Stone-900);
+    width: 100%;
+}
+
+.bullet-point .bullet {
+    font-size: 3.6rem;
+    margin-right: 1.2rem;
+}
+
+.to-bold {
+    font-weight: 600;
+}
+
+.ingredients-section,
+.instructions-section,
+.nutrition-section {
+    max-width: 100%;
+    margin-left: 2.9rem;
+}
+
+.ingredients-title,
+.instructions-title,
+.nutrition-title {
+    font-size: 3rem;
+    color: var(--Brown-800);
+    margin: 2rem 0;
+}
+
+.ingredients, 
+.instructions {
+    margin-left: 2rem;
+}
+
+.ingredients .ingredient,
+.instructions .instruction {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    padding: 0 1.2rem;
+    color: var(--Stone-600);
+    line-height: 1.5;
+}
+
+.instruction::marker {
+    color: var(--Brown-800);
+    font-weight: 600;
+}
+
+.divider {
+    width: 310px;
+    height: 1px;
+    background-color: var(--Stone-150);
+    margin: 2rem 0;
+}
+
+.nutrition-paragraph {
+    width: 99%;
+}
+
+.nutrition-section .nutrients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.2rem 2.9rem 2.2rem 0;
+}
+
+.nutrients .nutrient {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nutrients .nutrient .nutrient-type {
+    margin-right: 10.2rem;
+    font-size: 1.6rem;
+    color: var(--Stone-600);
+}
+
+.nutrient .nutrient-value {
+    color: var(--Brown-800);
+    font-size: 1.6rem;
+    font-weight: 600;
+}

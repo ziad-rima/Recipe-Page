@@ -22,8 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-recipe-page-J3XRayaXMh)
+- [Live Site URL](https://recipepagefront.netlify.app/)
 
 ## My process
 

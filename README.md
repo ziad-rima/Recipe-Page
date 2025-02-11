@@ -17,7 +17,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Screenshot.png)
 
 
 ### Links
@@ -26,6 +26,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Live Site URL]()
 
 ## My process
+
+I followed the mobile-first approach for this project, it's an easy one that shouldn't take an experienced developer more than 2 hours to complete.
 
 ### Built with
 
